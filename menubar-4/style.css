@@ -1,0 +1,60 @@
+:root {
+    --color-primary: #0082c8;
+    --color-white: #e9e9e9;
+    --color-blue: #1a2a6c;
+    --color-red: #b21f1f;
+    --color-yellow: #fdbb2d;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: var(--color-yellow);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    background-color: var(--color-white);
+    font-size: 30px;
+}
+
+.logo span {
+    background-color: var(--color-red);
+    font-weight: bold;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+}
+
+.container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.container ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.container ul li a:hover {
+    color: var(--color-red);
+}
